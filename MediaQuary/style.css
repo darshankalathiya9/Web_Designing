@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.logo {
+  height: 80px;
+  width: 10%;
+}
+.logo img {
+  height: 50px;
+  width: 70%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+.logo_name {
+  font-size: 35px;
+  color: white;
+  background-color: black;
+  height: 80px;
+  width: 90%;
+  line-height: 80px;
+  /* text-align: center; */
+  padding-left: 490px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+  transform: scale(1.05);
+}
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: gray;
+}
+ul {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  padding-left: 90px;
+}
+ul li {
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 60px;
+  font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.section {
+  height: 500px;
+  width: 100%;
+  margin-top: 2px;
+  display: flex;
+}
+.first {
+  height: 500px;
+  width: 48%;
+  margin-left: 1.33%;
+}
+.x {
+  height: 248px;
+  width: 100%;
+  background-color: darkseagreen;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.first_paragraph {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.y {
+  margin-top: 4px;
+  height: 248px;
+  width: 100%;
+  background-color: rgb(236, 189, 68);
+}
+.info {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.second {
+  height: 500px;
+  width: 48%;
+  margin-left: 1.33%;
+}
+.second img {
+  height: 500px;
+  width: 100%;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 2px;
+  height: 80px;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.copyright {
+  margin: 0%;
+  padding-top: 13px;
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.footer_links {
+  padding-left: 34%;
+}
+.footer_links a {
+  border-right: 1px solid white;
+  margin-right: 7px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-top: 3px;
+  white-space: nowrap;
+  text-align: center;
+}

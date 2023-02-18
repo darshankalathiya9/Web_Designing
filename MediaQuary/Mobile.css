@@ -1,0 +1,138 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  .header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+  }
+  .logo {
+    height: 80px;
+    width: 10%;
+  }
+  .logo img {
+    padding-top: 15px;
+    padding-left: 5px;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+  }
+  .logo_name {
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    height: 80px;
+    width: 90%;
+    line-height: 80px;
+    /* text-align: center; */
+    padding-left: 150px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(1.05);
+  }
+  .nav {
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+  }
+  ul {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding-left: 72px;
+  }
+  ul li {
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 60px;
+    font-size: 18px;
+  }
+  ul li a:hover {
+    transform: scale(1.1);
+  }
+  .section {
+    height: auto;
+    width: 100%;
+    margin-top: 2px;
+    display: block;
+  }
+  .first {
+    height: 482px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .x {
+    height: 250px;
+    width: 100%;
+    background-color: darkseagreen;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .first_paragraph {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .y {
+    margin-top: 2px;
+    height: 230px;
+    width: 100%;
+    background-color: rgb(236, 189, 68);
+  }
+  .info {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .second {
+    height: 350px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2px;
+  }
+  .second img {
+    height: 350px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .footer {
+    display: block;
+    margin-top: 2px;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+  .copyright {
+    margin: 0%;
+    padding-top: 13px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+  .footer_links {
+    padding-left: 6%;
+  }
+  .footer_links a {
+    border-right: 1px solid white;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 3px;
+    white-space: nowrap;
+    text-align: center;
+  }
+}

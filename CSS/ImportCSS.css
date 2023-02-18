@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+h1{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    line-height: 100px;
+    font-size: 50px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin: 2%;
+    margin-left: 530px;
+    border: 2px double black;
+    border-radius: 50%;
+}
+p{
+    padding-top: 15px;
+}

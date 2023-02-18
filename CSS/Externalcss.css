@@ -1,0 +1,17 @@
+div
+{
+    height: 80px;
+    width: 100%;
+    border: 2px solid brown;
+    color: darkgoldenrod;
+    background-color: black;
+    margin: 0;
+}
+p{
+    height: 60px;
+    width: 85%;
+    border: 2px dotted brown;
+    color: slategrey;
+    background-color: paleturquoise;
+    margin: 0;
+}

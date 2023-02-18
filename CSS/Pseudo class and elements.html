@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            line-height: 100px;
+            text-align: center;
+            font-size: 50px;
+        }
+        .image{
+            margin-top: 3%;
+            margin-bottom: 3%;
+            margin-left: 550px;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        img{
+            height: 300px;
+            width: 100%;
+        }
+        div.content::first-letter{
+            font-size: 30px;
+            color: blue;
+        }
+        div.content::first-line{
+            background-color: aqua;
+        }
+        div.content::selection{
+            background-color: tomato;
+            color: chartreuse;
+        }
+        div.content::before{
+            content: 'JAY SARDAR  ';
+            background-color: red;
+            color:snow;
+            padding: 3px;
+            border: 2px solid green;
+        }
+        div.content::after{
+        content: 'JAY PATIDAR';
+        }        
+        ::marker{
+            color: rgb(15, 216, 15);
+        }
+        ul{
+            margin-top: 15px;
+        }
+        ul li::selection{
+            background-color: tomato;
+            color: chartreuse;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="https://en.wikipedia.org/wiki/Vallabhbhai_Patel" target="_blank"> Jay Sardar </a>
+    </div>
+    <div class="image">
+        <img src="https://assets.thehansindia.com/h-upload/2022/11/05/1319308-sardar-vallabhbhai-patel.webp" alt="">
+    </div>
+    <div class="content">
+        Vallabhbhai Jhaverbhai Patel 31 October 1875 – 15 December 1950), commonly known as Sardar,[a] was an Indian lawyer, influential political leader, barrister and statesman who served as the first Deputy Prime Minister and Home Minister of India from 1947 to 1950. He was a barrister and a senior leader of the Indian National Congress, who played a leading role in the country's struggle for independence, guiding its integration into a united, independent nation.[1] In India and elsewhere, he was often called Sardar, meaning "chief" in Hindi, Urdu, Bengali and Persian. He acted as the Home Minister during the political integration of India and the Indo-Pakistani War of 1947.
+    </div>
+    <ul>
+        <li>Jay Sardar</li>
+        <li>Jay Patidar</li>
+        <li>Patel Sarakar</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        background-color: blanchedalmond;
+      }
+      .name {
+        font-size: 20px;
+        margin-left: 40%;
+        margin-top: 20%;
+        display: inline-block;
+      }
+      .text1 {
+        /* margin-left: 15px; */
+        margin-left: 105px;
+        display: inline-block;
+      }
+      .password {
+        font-size: 20px;
+        margin-left: 40%;
+        display: inline-block;
+      }
+      .text2 {
+        margin-left: 28px;
+        display: inline-block;
+      }
+      .submit_button {
+        margin-left: 48%;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Simple Form -->
+
+    <!-- <form action="" name="myform">
+      <div class="name">
+        <label for="">First Name</label>
+        <div class="text1">
+          <input type="text" name="name" required /><br />
+        </div>
+      </div>
+
+      <div class="password">
+        <label for="">Password</label>
+        <div class="text2">
+          <input type="password" name="pass" required /><br />
+        </div>
+      </div>
+
+      <div class="submit_button">
+        <input type="submit" value="Submit" onclick="get()" />
+      </div>
+    </form>
+
+    <script>
+      function get() {
+        var a = document.forms["myform"]["name"].value;
+        var b = document.forms["myform"]["pass"].value;
+
+        if (a == "") {
+          alert("please Enter Name.");
+        } else if (b == "") {
+          alert("Please Enter Password.");
+        } else {
+          alert("Succssfully Login.");
+        }
+      }
+    </script> -->
+
+    <!-- Conform Password Form -->
+    <form action="" name="myform">
+      <div class="name">
+        <label for="">Password</label>
+        <div class="text1">
+          <input type="password" name="password" required /><br />
+        </div>
+      </div>
+
+      <div class="password">
+        <label for=""> Conform Password</label>
+        <div class="text2">
+          <input type="password" name="pass" required /><br />
+        </div>
+      </div>
+
+      <div class="submit_button">
+        <input type="submit" value="Submit" onclick="get()" />
+      </div>
+    </form>
+
+    <script>
+      function get() {
+        var a = document.forms["myform"]["password"].value;
+        var b = document.forms["myform"]["pass"].value;
+
+        if (a == "") {
+          alert("Please Enter Password.");
+        } else if (b == "") {
+          alert("Please Enter Conform Password.");
+        } else if (a == b) {
+          alert("Successfully Login.");
+        } else {
+          alert("Password Doesn't Match.");
+        }
+      }
+    </script>
+  </body>
+</html>

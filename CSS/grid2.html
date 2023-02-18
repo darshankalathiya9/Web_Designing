@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-rows: repeat(3,150px);
+            grid-template-columns: 200px repeat(2,1fr) 1fr;
+            grid-gap: 10px;
+        }
+        .sidebarleft{
+            background-color: rgb(45, 219, 45);
+            grid-row: 1/-1;
+        }
+        .header{
+            background-color: rgb(45, 219, 45);
+            grid-column: 2/4;
+        }
+        .logo{
+            background-color: rgb(233, 47, 47);
+        }
+        .box1{
+            background-color: darkorange;
+        }
+        .box2{
+            background-color: rgb(233, 47, 47);
+        }
+        .box3{
+            background-color: rgb(233, 47, 47);
+            grid-row: 3/4;
+        }
+        .box4{
+            background-color: darkorange;
+            grid-row: 3/4;
+        }
+        .box5{
+            background-color: rgb(45, 219, 45);
+            grid-row: 2/-1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebarleft"></div>
+        <div class="header"></div>
+        <div class="logo"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+    </div>
+</body>
+</html>

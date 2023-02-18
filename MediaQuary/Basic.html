@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+        }
+      .div {
+        height: auto;
+        width: 100%;
+        text-align: center;
+      }
+      .link{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(207, 125, 67);
+        text-align: center;
+        font-size: 30px;
+      }
+      .link a{
+        text-decoration: none;
+        color: black;
+        line-height: 100px;
+      }                      
+      .link a:hover{
+        color: blue;
+        text-decoration: underline;
+      }
+      table,tr,td,th{
+        border-collapse: collapse;
+        border: 2px solid black;
+        padding: 5px;
+      }
+      .mobile {
+        height: 100px;
+        width: 100%;
+        background-color: cornflowerblue;
+        visibility: hidden;
+      }
+      .laptop {
+        height: 100px;
+        width: 100%;
+        background-color:darkcyan;
+        visibility: hidden;
+      }
+      .computer {
+        height: 100px;
+        width: 100%;
+        background-color:darkgray;
+        visibility: hidden;
+      }
+      .largescreen {
+        height: 100px;
+        width: 100%;
+        background-color:goldenrod;
+        visibility: hidden;
+      }
+      @media (max-width:480px){
+        .mobile{
+            visibility: visible;
+        }
+      }
+      @media (min-width:481px) and (max-width:768px){
+        .laptop{
+            visibility: visible;
+        }
+      }
+      @media (min-width:769px) and (max-width:1024px){
+        .computer{
+            visibility: visible;
+        }
+      }
+      @media (min-width:1025px) and (max-width:1366px){
+        .largescreen{
+            visibility: visible;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+        <div class="link">
+      <a href="https://whatismyviewport.com/" target="_blank">View Your Scrren Size</a></div>
+      <table style="margin-left: 540px; margin-top: 20px;">
+        <tr>
+            <th>Devices</th>
+            <th>PX</th>
+        </tr>
+        <tr>
+            <td>Mobile Devices</td>
+            <td>320px - 480px</td>
+        </tr>
+        <tr>
+            <td>Ipads & Tablets</td>
+            <td>481px - 768px</td>
+        </tr>
+        <tr>
+            <td>Laptops & Small Screens</td>
+            <td>769px - 1024px</td>
+        </tr>
+        <tr>
+            <td>Desktops & Large Screens</td>
+            <td>1025px - 1200px</td>
+        </tr>
+        <tr>
+            <td>TV 7 Extra Large Scrren</td>
+            <td>1201px & More</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="mobile">Mobile</div>
+    <div class="laptop">Laptop</div>
+    <div class="computer">Computer</div>
+    <div class="largescreen">Large Screen</div>
+  </body>
+</html>

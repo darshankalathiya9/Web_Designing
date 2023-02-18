@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: x;
+            margin: 0;
+        }
+        p{
+            margin: 0;
+            display: inline;
+        }
+        p::after{
+            counter-increment: x;
+            content: "["counter(x)"]";
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias unde atque quasi quis at nesciunt placeat quam impedit accusantium omnis repellendus sapiente rerum modi ipsa error rem quos, voluptatibus libero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dicta fuga quae expedita placeat minima? Quibusdam, ipsum doloribus non eligendi atque repudiandae sit? Laudantium quisquam reprehenderit perferendis, a et porro.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi enim rem odit laudantium doloremque, ipsa quidem maxime accusamus animi eum mollitia. Alias eaque unde voluptatum architecto quod molestias suscipit aperiam.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel amet suscipit unde consequuntur quaerat reiciendis culpa veritatis, cum officiis modi quas facilis magni distinctio ullam harum beatae, similique, exercitationem ut.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus facilis consequuntur facere a quo assumenda! Harum est quo, cum obcaecati velit laboriosam impedit aliquid blanditiis inventore dolorum, consectetur quisquam voluptatum.</p>
+    <div>
+        a <sup>2</sup> + b <sup>2</sup> = c <sup>2</sup>
+    </div>
+</body>
+</html>
